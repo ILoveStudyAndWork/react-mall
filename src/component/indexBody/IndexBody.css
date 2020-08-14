@@ -1,0 +1,21 @@
+.product-container
+{
+    margin:0 auto;
+    width: 800px;
+    background:#ccc;
+    margin: 100px auto;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    justify-content: space-between;
+}
+.product
+{
+    margin: 30px;
+    flex:1;
+    float: left;
+    border: 5px darkslategrey;
+}
+img {
+    height: 500px;
+    width: 350px;
+}
